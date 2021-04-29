@@ -3,6 +3,7 @@
 
 body {
 	background-color: #474e5d;
+	font-family: "Courier New";
 }
 
 h2, h4 {
@@ -33,12 +34,15 @@ li a {
 }
 
 li a:hover {
-	background-color: aquamarine;
+	background-color: black;
 }
 
 .active {
 	background-color: coral;
 	color: black;
+}
+.active:hover {
+	background-color: coral;
 }
 
 .container {
@@ -49,8 +53,8 @@ li a:hover {
 
 .bottomRight {
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+  top: 10px;
+  left: 10px;
 }
 
 .backImg {
